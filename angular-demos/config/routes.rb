@@ -4,6 +4,9 @@ AngularDemos::Application.routes.draw do
   # Data Binding
   get 'd01', to: 'demos#d01'
 
+  # Controllers
+  get 'd02', to: 'demos#d02'
+
   # get 'demos/02-data-binding', to: 'demos#01-data-binding'
   # get 'demos/01-data-binding', to: 'demos#01-data-binding'
   # get 'demos/01-data-binding', to: 'demos#01-data-binding'
