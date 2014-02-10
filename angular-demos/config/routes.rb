@@ -12,6 +12,7 @@ AngularDemos::Application.routes.draw do
   get 'd04', to: 'demos#d04'
   get 'd05', to: 'demos#d05'
   get 'd06', to: 'demos#d06'
+  get 'd07', to: 'demos#d07'
 
   # get 'demos/02-data-binding', to: 'demos#01-data-binding'
   # get 'demos/01-data-binding', to: 'demos#01-data-binding'
