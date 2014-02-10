@@ -1,9 +1,13 @@
 <h2>Names:</h2>
 
+<div>
+  <input type="search" ng-model="search"></input>
+</div>
+
 <div ng-controller="ListController">
   <ul>
-    <li ng-repeat="name in names">
-      {{name}}
+    <li ng-repeat="person in people | filter:search">
+      {{person.name}} : {{person.age}}
     </li>
   </ul>
 </div>
