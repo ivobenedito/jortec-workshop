@@ -1,0 +1,21 @@
+<style>
+  select { width: 200px; }
+</style>
+
+<div ng-controller="ContactsController">
+  <input type="search" ng-model="search" placeholder="search">
+  <br>
+
+  <select ng-model="selectedPerson"
+          ng-options="person.name for person in people | filter:search">
+    <option value="">Choose a person:</option>
+  </select>
+
+  <div>
+    <label>Name:</label>
+    <input type="text" ng-model="selectedPerson.name">
+    <br>
+    <label>Number:</label>
+    <input type="text" ng-model="selectedPerson.number">
+  </div>
+</div>
