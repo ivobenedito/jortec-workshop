@@ -12,8 +12,13 @@
 
 ## Data Binding (demo 01)
 
-![Final](docs/d01_final.jpg)
+![Step 1](docs/d01_01.jpg)
 
 
+## Controllers
+
+![Step 1](docs/d02_01.jpg)
+![Step 2](docs/d02_02.jpg)
+![Step 3](docs/d02_03.jpg)
 
 
