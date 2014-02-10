@@ -1,0 +1,13 @@
+<div>
+  <label>Name</label>
+  <input type="text" ng-model="name" placeholder="Insert name ...">
+</div>
+
+<div>
+  <input type="checkbox" ng-model="isChecked">
+  <label>Hide?</label>
+</div>
+
+<div ng-hide="isChecked">
+  Hello, {{name || 'world'}}!
+</div>
