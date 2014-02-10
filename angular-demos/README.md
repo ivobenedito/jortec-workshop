@@ -1,16 +1,19 @@
-## Angular demos
+# Angular demos
 
-* d01 - Data Binding
-* d02 - Controllers
-* d03 - Directives
-* d04 - Modules
+* Data Binding
+* Controllers
+* Directives
+* Modules
  * Modules Primer
  * Dependency Injection
-* d05 - Services
-* d06 - Filters
+* Services
+* Filters
 
 
-### Data Binding (demo 01)
+## Data Binding (demo 01)
 
-![Final result](docs/d01_final.jpg)
+![Final](docs/d01_final.jpg)
+
+
+
 
