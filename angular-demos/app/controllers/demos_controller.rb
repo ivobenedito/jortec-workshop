@@ -12,4 +12,8 @@ class DemosController < ActionController::Base
   def d03
     render layout: 'd03'
   end
+
+  def d04
+    render layout: 'd04'
+  end
 end
