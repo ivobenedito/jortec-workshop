@@ -12,5 +12,5 @@
 
 ### Data Binding (demo 01)
 
-[Final result](docs/d01_final.jpg)
+![Final result](docs/d01_final.jpg)
 
