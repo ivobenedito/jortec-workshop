@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>BackboneDemos</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>BackboneJS workshop</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
 
-<%= yield %>
+    <style>
+      * { box-sizing: border-box; }
 
-</body>
+      body {
+        font: 16px/1.5 sans-serif;
+        color: #222;
+        margin: 5em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+    <!-- /container -->
+
+  </body>
 </html>
