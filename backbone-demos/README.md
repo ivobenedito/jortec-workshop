@@ -12,11 +12,13 @@
 
 ## Data Types Primer
 
-How to represent and organize data.
+Represent and organize data using a vanilla javascript model.
 
 ```javascript
 // On chrome console, type each of these commands individually and study what happens
+
 Quiz;
+
 var quiz = new Quiz('my first quiz');
 quiz;
 quiz.title;
@@ -36,4 +38,16 @@ person.work();
 
 var person2 = new Person({ name: 'Another person', age: 30, occupation: 'web designer' });
 person2.work();
+```
+
+---
+
+## Backbone Model
+
+Represent the previous javascript object, now extending Backbone model.
+
+```javascript
+// On chrome console, type each of these commands individually and study what happens
+
+Person;
 ```
