@@ -12,17 +12,27 @@
 
 ## Data Types Primer
 
-```javascript
-// Copy this vanilla javascript class to file d01.js
-var Quiz = function(title) {
-  this.title = title;
-}
-```
+How to represent and organize data.
 
 ```javascript
 // On chrome console, type each of these commands individually and study what happens
 Quiz;
 var quiz = new Quiz('my first quiz');
+quiz;
 quiz.title;
 $body.html(quiz.title);
+
+// ---
+
+Person;
+
+var person = new Person({ name: 'My name', age: 25, occupation: 'web developer' });
+person;
+person.name;
+person.age;
+person.occupation;
+person.work();
+
+var person2 = new Person({ name: 'Another person', age: 30, occupation: 'web designer' });
+person2.work();
 ```
