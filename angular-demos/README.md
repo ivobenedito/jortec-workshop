@@ -1,12 +1,12 @@
 # Angular demos
 
-* Data Binding
-* Controllers
+* Data Binding (d01)
+* Controllers (d02)
 * Directives
- * ng-show & ng-hide
- * ng-repeat & our custom filter
- * ng-click
- * ng-change & ng-options
+ * ng-show & ng-hide (d03)
+ * ng-repeat & our custom filter (d04)
+ * ng-click (d05)
+ * ng-change & ng-options (d06)
 * Modules
  * Modules Primer
  * Dependency Injection
