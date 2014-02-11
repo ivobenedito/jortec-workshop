@@ -6,7 +6,8 @@
  * ng-show & ng-hide (d03)
  * ng-repeat & our custom filter (d04)
  * ng-click (d05)
- * ng-change & ng-options (d06)
+ * ng-change (d06)
+ * ng-options (d07)
 * Modules
  * Modules Primer
  * Dependency Injection
