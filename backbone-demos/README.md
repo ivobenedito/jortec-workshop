@@ -13,26 +13,16 @@
 ## Data Types Primer
 
 ```javascript
-// Add this vanilla javascript class to d01.js
+// Copy this vanilla javascript class to file d01.js
 var Quiz = function(title) {
   this.title = title;
 }
 ```
 
-In the chrome console type each one of the following commands and see analyze it's outputs:
-
 ```javascript
-Quiz
-```
-
-```javascript
-var quiz = new Quiz('my first quiz')
-```
-
-```javascript
-quiz.title
-```
-
-```javascript
-$body.html(quiz.title)
+// On chrome console, type each of these commands individually and study what happens
+Quiz;
+var quiz = new Quiz('my first quiz');
+quiz.title;
+$body.html(quiz.title);
 ```
