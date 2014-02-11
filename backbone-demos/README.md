@@ -7,3 +7,13 @@
 * External Templates
 * Collections
 * Collection Views
+
+---
+
+## Data Types Primer
+
+```javascript
+var Quiz = function(title) {
+  this.title = title;
+}
+```
