@@ -14,11 +14,13 @@
 * Services
 * Filters
 
+---
 
 ## Data Binding
 
 ![Step 1](docs/d01_01.jpg)
 
+---
 
 ## Controllers
 
@@ -26,6 +28,7 @@
 ![Step 2](docs/d02_02.jpg)
 ![Step 3](docs/d02_03.jpg)
 
+---
 
 ## Directives
 
@@ -52,6 +55,4 @@
 
 ![Step 1](docs/d07_01.jpg)
 ![Step 2](docs/d07_02.jpg)
-
-
 
