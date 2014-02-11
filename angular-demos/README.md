@@ -1,4 +1,4 @@
-# AngularJS demos
+# [AngularJS](http://angularjs.org/) trainning
 
 * Data Binding (d01)
 * Controllers (d02)
