@@ -4,7 +4,7 @@
 * Controllers (d02)
 * Directives
  * ng-show & ng-hide (d03)
- * ng-repeat & our custom filter (d04)
+ * ng-repeat & our first filter (d04)
  * ng-click (d05)
  * ng-change (d06)
  * ng-options (d07)
