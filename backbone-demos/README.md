@@ -1,6 +1,6 @@
 # [BackboneJS](http://backbonejs.org/) trainning
 
-* Data Types Primer
+* Data Types Primer (vanilla javascript)
 * First Backbone Model
 * Validating Models
 * Inline Templates
