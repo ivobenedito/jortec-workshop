@@ -14,18 +14,6 @@ AngularDemos::Application.routes.draw do
   get 'd06', to: 'demos#d06'
   get 'd07', to: 'demos#d07'
 
-  # get 'demos/02-data-binding', to: 'demos#01-data-binding'
-  # get 'demos/01-data-binding', to: 'demos#01-data-binding'
-  # get 'demos/01-data-binding', to: 'demos#01-data-binding'
-  # get 'demos/01-data-binding', to: 'demos#01-data-binding'
-
-  # get 'playground',       to: 'welcome#playground'
-  # get 'contacts',         to: 'welcome#contacts'
-  # get 'filter',           to: 'welcome#filter'
-  # get 'custom_filter',    to: 'welcome#custom_filter'
-  # get 'custom_directive', to: 'welcome#custom_directive'
-  # get 'kontacts',         to: 'welcome#kontacts'
-
   namespace :api, defaults: { format: :json } do
     resources :tasks
     resources :contacts
