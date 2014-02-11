@@ -33,7 +33,7 @@
 ![Step 1](docs/d03_01.jpg)
 ![Step 2](docs/d03_02.jpg)
 
-### ng-repeat & our custom filter
+### ng-repeat & our first filter
 
 ![Step 1](docs/d04_01.jpg)
 ![Step 2](docs/d04_02.jpg)
@@ -41,4 +41,16 @@
 
 ### ng-click
 
-### ng-change & ng-options
+![Step 1](docs/d05_01.jpg)
+
+### ng-change
+
+![Step 1](docs/d06_01.jpg)
+
+### ng-options
+
+![Step 1](docs/d07_01.jpg)
+![Step 2](docs/d07_02.jpg)
+
+
+
