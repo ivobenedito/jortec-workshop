@@ -17,6 +17,10 @@
 var Quiz = function(title) {
   this.title = title;
 }
+
+Quiz.prototype.shout = function () {
+  return this.title.toUpperCase();
+};
 ```
 
 ```javascript
@@ -24,5 +28,6 @@ var Quiz = function(title) {
 Quiz;
 var quiz = new Quiz('my first quiz');
 quiz.title;
+quiz.shout();
 $body.html(quiz.title);
 ```
