@@ -1,10 +1,33 @@
-<div class="browser" ng-controller="BrowserController">
-  <div class="browser-url">
-    <h2>http://{{path}}</h2>
-  </div>
+<style type="text/css">
+  .first-true { background: #FF0000; }
+</style>
 
-  <div class="browser-page">
-    <label>Update the URL:</label>
-    <input type="text" ng-change="clean()" ng-model="path" style="width: 200px; padding: 5px;">
+<h2>Names:</h2>
+
+<div>
+  <input type="search" ng-model="search"></input>
+</div>
+
+<div ng-controller="ListController">
+  <ul>
+    <li ng-repeat="person in people | filter:search">
+      {{person.name}} : {{person.age}}
+      <button ng-click="remove($index)" class="first-{{$first}}">X</button>
+      <span ng-show="$first">First!</span>
+      <span ng-show="$middle">Middle!</span>
+      <span ng-show="$last">Last!</span>
+    </li>
+  </ul>
+
+  <p>There are {{people.length}} people in the list.</p>
+
+  <div>
+    <label>Name:</label>
+    <input type="text" ng-model="newName">
+    <br>
+    <label>Age:</label>
+    <input type="number" ng-model="newAge">
+    <br>
+    <button ng-click="add()">Add</button>
   </div>
 </div>

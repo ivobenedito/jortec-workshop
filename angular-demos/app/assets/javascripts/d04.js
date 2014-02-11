@@ -6,6 +6,7 @@
 
 var ListController = function ($scope) {
   $scope.names = ['Ivo', 'Pedro', 'Joao', 'Filipa', 'Maria'];
+
   $scope.people = [
     { name: 'Ivo',    age: 20 },
     { name: 'Pedro',  age: 30 },
