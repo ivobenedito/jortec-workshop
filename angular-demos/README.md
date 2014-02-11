@@ -1,4 +1,4 @@
-# Angular demos
+# AngularJS demos
 
 * Data Binding (d01)
 * Controllers (d02)
