@@ -20,6 +20,7 @@ Quiz;
 var quiz = new Quiz('my first quiz');
 quiz;
 quiz.title;
+quiz.shout();
 $body.html(quiz.title);
 
 // ---
