@@ -111,3 +111,31 @@ person.toJSON();
 ---
 
 ## Views
+
+In Backbone, think of your View not as only HTML, but as the representation of a single element.
+It responds to events, can have it's own methods and can trigger actions on a model os listen to changes on it's associated model.
+
+```javascript
+var PersonView = Backbone.View.extend({});
+var personView = new PersonView;
+personView.el;
+personView.$el;
+
+---
+
+personView;
+personView.el;
+personView.render();
+personView.el;
+
+---
+
+personView.el;
+$(document.body).html(personView.el);
+
+---
+
+personView.el;
+$(document.body).html(personView.el);
+// Now we start seeing here an anti-pattern and the usage of templates is welcome :)!
+```
