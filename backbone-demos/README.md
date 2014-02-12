@@ -50,4 +50,28 @@ Represent the previous javascript object, now extending Backbone model.
 // On chrome console, type each of these commands individually and study what happens
 
 Person;
+
+var person = new Person();
+person;
+person.name;
+person.age;
+person.get('name');
+person.get('age');
+// Using this accessors, is what allows Backbone to be tracking our data for changes.
+person.work();
+
+var person2 = new Person({ name: 'Beyonce', age: '30' });
+person2;
+person2.toJSON();
+
+person2.get('occupation');
+person2.set('occupation', 'colourful friend');
+person2.available();
+person2.toJSON();
+
+person2.set({ 'occupation': 'president' });
+person2.available();
+person2.toJSON();
+
+person2.set('age': -50);
 ```
