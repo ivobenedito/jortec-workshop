@@ -1,8 +1,10 @@
 # [BackboneJS](http://backbonejs.org/) trainning
 
-* Data Types Primer (vanilla javascript)
+* Data Types Primer
 * First Backbone Model
 * Validating Models
+* Views
+
 * Inline Templates
 * External Templates
 * Collections
@@ -103,3 +105,7 @@ person2.set('age': -50);
   person.set('name', '', { validate: true });
   person.toJSON();
 ```
+
+---
+
+## Views
