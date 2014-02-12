@@ -42,7 +42,7 @@ person2.work();
 
 ---
 
-## Backbone Model
+## First Backbone Model
 
 Represent the previous javascript object, now extending Backbone model.
 
@@ -74,4 +74,32 @@ person2.available();
 person2.toJSON();
 
 person2.set('age': -50);
+```
+
+---
+
+## Validating Models
+
+```javascript
+  var person = new Person({ name: 'Maria', age: 25 }); // doesn't validate
+  person.get('name'); // doesn't validate
+  person.set('age', -27); // doesn't validate
+  person.set('age', -27, { validate: true }); // triggers validate
+  person.isValid() // trigger validate
+
+  var person = new Person({ name: 'Maria', age: 25 });
+  person.set('age', -27, { validate: true });
+  person.isValid();
+  person.set('age', -27);
+  person.isValid();
+  person.validationError;
+  person.previousAttributes();
+  person.changedAttributes();
+
+  var person = new Person;
+  person.on('invalid', function (model, error) { console.log(error); });
+  person.set('name', 'Filipe');
+  person.toJSON();
+  person.set('name', '', { validate: true });
+  person.toJSON();
 ```
