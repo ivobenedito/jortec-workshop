@@ -60,7 +60,7 @@ person.get('age');
 // Using this accessors, is what allows Backbone to be tracking our data for changes.
 person.work();
 
-var person2 = new Person({ name: 'Beyonce', age: '30' });
+var person2 = new Person({ name: 'Beyonce Knowles', age: '30' });
 person2;
 person2.toJSON();
 
