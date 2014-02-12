@@ -121,19 +121,19 @@ var personView = new PersonView;
 personView.el;
 personView.$el;
 
----
+// ---
 
 personView;
 personView.el;
 personView.render();
 personView.el;
 
----
+// ---
 
 personView.el;
 $(document.body).html(personView.el);
 
----
+// ---
 
 personView.el;
 $(document.body).html(personView.el);
