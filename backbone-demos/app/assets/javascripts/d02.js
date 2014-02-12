@@ -9,9 +9,11 @@ var Person = Backbone.Model.extend({
     age: 30,
     occupation: 'worker'
   },
+
   work: function () {
     return this.get('name') + ' is working ...';
   },
+
   available: function () {
     return 'Busy with ' + this.get('occupation');
   }
