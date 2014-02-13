@@ -159,3 +159,17 @@ $(document.body).append(personView.el);
 ---
 
 ## External Templates (d06)
+
+```javascript
+// Now let's try with an external template using handlebars
+
+$(document.body).append(personView.el)
+
+---
+
+// Create a person2 and append person + person2
+personView.el;
+personView2.el;
+$(document.body).append(personView.el);
+$(document.body).append(personView2.el);
+```
