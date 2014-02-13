@@ -16,4 +16,9 @@ BackboneDemos::Application.routes.draw do
   get 'd05', to: 'demos#d05'
   get 'd06', to: 'demos#d06'
   get 'd07', to: 'demos#d07'
+
+  namespace :api, defaults: { format: :json } do
+    resources :tasks
+    resources :contacts
+  end
 end
