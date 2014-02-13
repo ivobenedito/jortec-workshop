@@ -7,7 +7,6 @@
 * Inline Templates
 * External Templates
 * Collections
-
 * Collection Views (todo)
 
 ---
