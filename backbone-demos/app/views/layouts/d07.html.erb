@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>07 - Collections</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= csrf_meta_tags %>
+
+    <style>
+      * { box-sizing: border-box; }
+
+      body {
+        font: 16px/1.5 sans-serif;
+        color: #222;
+        margin: 5em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+    <!-- /container -->
+
+    <%= javascript_include_tag "d07" %>
+  </body>
+</html>
