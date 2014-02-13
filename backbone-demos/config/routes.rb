@@ -16,7 +16,9 @@ BackboneDemos::Application.routes.draw do
   # Inline Templates
   get 'd05', to: 'demos#d05'
 
+  # External Templates
   get 'd06', to: 'demos#d06'
+
   get 'd07', to: 'demos#d07'
 
   namespace :api, defaults: { format: :json } do
