@@ -4,9 +4,9 @@
 * First Backbone Model
 * Validating Models
 * Views
-
 * Inline Templates
 * External Templates
+
 * Collections
 * Collection Views
 
@@ -155,3 +155,7 @@ personView.el;
 personView.$el;
 $(document.body).append(personView.el);
 ```
+
+---
+
+## External Templates (d06)
