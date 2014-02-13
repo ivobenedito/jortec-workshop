@@ -143,3 +143,15 @@ personView.el;
 $(document.body).html(personView.el);
 // Now we start seeing here an anti-pattern and the usage of templates is welcome :)!
 ```
+
+---
+
+## Inline Templates (d05)
+
+```javascript
+// Now let's try with inline templates using the default underscore templating system
+
+personView.el;
+personView.$el;
+$(document.body).append(personView.el);
+```
