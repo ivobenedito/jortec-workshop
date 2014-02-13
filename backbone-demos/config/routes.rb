@@ -13,7 +13,9 @@ BackboneDemos::Application.routes.draw do
   # Views
   get 'd04', to: 'demos#d04'
 
+  # Inline Templates
   get 'd05', to: 'demos#d05'
+
   get 'd06', to: 'demos#d06'
   get 'd07', to: 'demos#d07'
 

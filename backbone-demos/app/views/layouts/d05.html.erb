@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>05 - Inline Templates</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "d05" %>
+    <%= csrf_meta_tags %>
+
+    <style>
+      * { box-sizing: border-box; }
+
+      body {
+        font: 16px/1.5 sans-serif;
+        color: #222;
+        margin: 5em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+    <!-- /container -->
+
+  </body>
+</html>
