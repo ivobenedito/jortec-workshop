@@ -91,6 +91,8 @@ person.set('age', -27); // doesn't validate
 person.set('age', -27, { validate: true }); // triggers validate
 person.isValid() // trigger validate
 
+// ---
+
 var person = new Person({ name: 'Maria', age: 25 });
 person.set('age', -27, { validate: true });
 person.isValid();
@@ -99,6 +101,8 @@ person.isValid();
 person.validationError;
 person.previousAttributes();
 person.changedAttributes();
+
+// ---
 
 var person = new Person;
 person.on('invalid', function (model, error) { console.log(error); });
