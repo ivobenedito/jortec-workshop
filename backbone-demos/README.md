@@ -6,8 +6,8 @@
 * Views
 * Inline Templates
 * External Templates
-
 * Collections
+
 * Collection Views
 
 ---
@@ -172,4 +172,22 @@ personView.el;
 personView2.el;
 $(document.body).append(personView.el);
 $(document.body).append(personView2.el);
+```
+
+## Collections (d07)
+
+```javascript
+// Now, using our new PeopleCollection model, let's add a person
+PeopleCollection;
+PeopleCollection.add(person);
+PeopleCollection;
+PeopleCollection.toJSON();
+
+---
+
+peopleCollection;
+model = peopleCollection.at(0);
+model.attributes;
+peopleCollection.first().toJSON();
+peopleCollection.toJSON();
 ```
