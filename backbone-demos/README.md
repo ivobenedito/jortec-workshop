@@ -12,7 +12,7 @@
 
 ---
 
-## Data Types Primer
+## Data Types Primer (d01)
 
 Represent and organize data using a vanilla javascript model.
 
@@ -44,7 +44,7 @@ person2.work();
 
 ---
 
-## First Backbone Model
+## First Backbone Model (d02)
 
 Represent the previous javascript object, now extending Backbone model.
 
@@ -80,7 +80,7 @@ person2.set('age': -50);
 
 ---
 
-## Validating Models
+## Validating Models (d03)
 
 ```javascript
 // On chrome console, type each of these commands individually and study what happens
@@ -91,6 +91,8 @@ person.set('age', -27); // doesn't validate
 person.set('age', -27, { validate: true }); // triggers validate
 person.isValid() // trigger validate
 
+// ---
+
 var person = new Person({ name: 'Maria', age: 25 });
 person.set('age', -27, { validate: true });
 person.isValid();
@@ -99,6 +101,8 @@ person.isValid();
 person.validationError;
 person.previousAttributes();
 person.changedAttributes();
+
+// ---
 
 var person = new Person;
 person.on('invalid', function (model, error) { console.log(error); });
@@ -110,7 +114,7 @@ person.toJSON();
 
 ---
 
-## Views
+## Views (d04)
 
 In Backbone, think of your View not as only HTML, but as the representation of a single element.
 It responds to events, can have it's own methods and can trigger actions on a model os listen to changes on it's associated model.
